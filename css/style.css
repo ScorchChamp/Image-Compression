@@ -1,0 +1,26 @@
+body {
+    font-family: 'Fira Code', sans-serif;
+    background-color: #eee;
+}
+
+#output {
+    text-align: center;
+}
+th {
+    text-align: left;
+}
+
+.size-info {
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-spacing: 10px;   
+}
+
+.download-button {
+    text-decoration: none;
+    background-color: #555;
+    color: #eee;
+    padding: 10px;
+}

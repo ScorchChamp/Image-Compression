@@ -1,0 +1,24 @@
+{
+  "name": "tools_homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScorchChamp/Tools_Homepage.git"
+  },
+  "author": "ScorchChamp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScorchChamp/Tools_Homepage/issues"
+  },
+  "homepage": "https://github.com/ScorchChamp/Tools_Homepage#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
