@@ -12,7 +12,7 @@
 ## Features
 
 - Input any image type
-- Compress the image down (up to 99.9%!)
+- Compress images down to 0.01% the normal size!
 - Preview the image
 - Preview the size reduction
 - Download the new image in an instant!

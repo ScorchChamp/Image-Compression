@@ -1,8 +1,6 @@
 body {
-    font-family: 'Fira Code', sans-serif;
     background-color: #eee;
 }
-
 #output {
     text-align: center;
 }
@@ -23,4 +21,8 @@ table {
     background-color: #555;
     color: #eee;
     padding: 10px;
+}
+
+* {
+    font-family: 'Fira Code', sans-serif;
 }
