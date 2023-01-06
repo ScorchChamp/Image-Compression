@@ -1,19 +1,15 @@
-body {
-    background-color: #eee;
-}
-#output {
-    text-align: center;
-}
-th {
-    text-align: left;
-}
-
-.size-info {
+.output {
     display: flex;
     justify-content: center;
 }
-table {
-    border-spacing: 10px;   
+
+.size-info {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 .download-button {
@@ -23,6 +19,10 @@ table {
     padding: 10px;
 }
 
-* {
-    font-family: 'Fira Code', sans-serif;
+.compression-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
 }

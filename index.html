@@ -3,41 +3,41 @@
 
 <head>
     <title>Image Compression</title>
-    <link href='https://fonts.googleapis.com/css?family=Fira+Code' rel='stylesheet'>
+    <link rel="stylesheet" href="https://scorchchamp.github.io/style.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <h1>Image Compression</h1>
     <form>
-        <input type="file" id="image-input" accept="image/*"><br>
-        <div class="size-info">
-            <label for="compression-level">Compression level:</label>
-            <input type="range" id="compression-level" min="1" max="100" value="100">
+        <div class="compression-info">
+            <div class="form-row">
+                <label for="compression-level">Image:</label>
+                <input type="file" id="image-input" accept="image/*">
+            </div>
+            <div class="form-row">
+                <label for="compression-level">Compression level:</label>
+                <input type="range" id="compression-level" min="1" max="100" value="100">
+            </div>
         </div>
     </form>
-    <div id="output">
-        <p>Compressed image will appear here</p>
+    <div class="output" id="output">
+        <label>Compressed image will appear here</label>
     </div>
     <div class="size-info">
-        <table>
-            <tr>
-                <th>Original size</th>
-                <td><span id="original-size"></span></td>
-            </tr>
-            <tr>
-                <th>New size</th>
-                <td><span id="compressed-size"></span></td>
-            </tr>
-            <tr>
-                <th>Size reduction</th>
-                <td><span id="size-reduction"></span>%</td>
-            </tr>
-            <tr>
-                <th><a href="" download="compressed_image.jpg" id="download-button"
-                        class="download-button">Download!</a></th>
-            </tr>
-        </table>
+        <div class="form-row">
+            <label>Original size</label>
+            <span id="original-size"></span>
+        </div>
+        <div class="form-row">
+            <label>New size</label>
+            <span id="compressed-size"></span>
+        </div>
+        <div class="form-row">
+            <label>Size reduction</label>
+            <span id="size-reduction"></span>%
+        </div>
+        <a href="" download="compressed_image.jpg" id="download-button" class="download-button">Download!</a>
     </div>
     <script src="./js/app.js"></script>
 </body>
