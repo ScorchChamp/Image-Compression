@@ -50,10 +50,6 @@ const compressImage = () => {
   reader.readAsDataURL(file);
 };
 
-const downloadImage = () => {
-  console.log(image)
-}
-
 compressionLevelInput.addEventListener('input', compressImage);
 imageInput.addEventListener('input', compressImage);
 const maxSize = 800;
