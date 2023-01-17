@@ -1,3 +1,5 @@
+
+window.addEventListener("load", function () {
 const imageInput = document.getElementById('image-input');
 const compressionLevelInput = document.getElementById('compression-level');
 const output = document.getElementById('output');
@@ -60,3 +62,4 @@ const formatBytes = (bytes) => {
   for (unit = 0; bytes >= 1024; unit++) bytes /= 1024;
   return `${bytes.toFixed(2)} ${units[unit]}`;
 };
+});
